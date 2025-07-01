@@ -1,0 +1,8 @@
+PRODUCT_DEVICE := X6882
+PRODUCT_NAME := lineage_X6882
+PRODUCT_BRAND := Infinix
+PRODUCT_MODEL := HOT 50
+PRODUCT_MANUFACTURER := Infinix
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/init/init.infinix_X6882.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.infinix_X6882.rc
