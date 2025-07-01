@@ -1,0 +1,6 @@
+on early-init
+    start ueventd
+
+on init
+    export ro.hardware X6882
+    symlink /vendor /system/vendor
